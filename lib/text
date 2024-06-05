@@ -1,0 +1,32 @@
+- lib
+  - blocs
+    - auth
+      - auth_bloc.dart           // Authentication BLoC class definition
+      - auth_event.dart          // Authentication BLoC event classes
+      - auth_state.dart          // Authentication BLoC state classes
+    - home
+      - home_bloc.dart           // Home BLoC class definition
+      - home_event.dart          // Home BLoC event classes
+      - home_state.dart          // Home BLoC state classes
+    - signin
+      - signin_bloc.dart         // Signin BLoC class definition
+      - signin_event.dart        // Signin BLoC event classes
+      - signin_state.dart        // Signin BLoC state classes
+    - login
+      - login_bloc.dart          // Login BLoC class definition
+      - login_event.dart         // Login BLoC event classes
+      - login_state.dart         // Login BLoC state classes
+  - repositories
+    - user_repository.dart      // UserRepository class for managing user data
+  - models
+    - user.dart                 // User model class
+  - screens
+    - home_page.dart            // Homepage UI screen
+    - login_page.dart           // Login UI screen
+    - signin_page.dart          // Signin UI screen
+  - widgets
+    - custom_button.dart        // Custom button widget
+    - custom_text_field.dart    // Custom text field widget
+  - utils
+    - validators.dart           // Validation helper functions
+  - main.dart                   // Entry point of the application
